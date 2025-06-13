@@ -1,0 +1,1032 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>;</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>INFLUD24-19-05-2025.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="DT_NOTIFIC" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="SEM_NOT" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="DT_SIN_PRI" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="SEM_PRI" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="SG_UF_NOT" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="ID_REGIONA" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="CO_REGIONA" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="ID_MUNICIP" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="CO_MUN_NOT" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="ID_UNIDADE" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="CO_UNI_NOT" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="CS_SEXO" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="DT_NASC" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="NU_IDADE_N" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="TP_IDADE" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="COD_IDADE" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="CS_GESTANT" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="CS_RACA" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="CS_ESCOL_N" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="ID_PAIS" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="CO_PAIS" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="SG_UF" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="ID_RG_RESI" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="CO_RG_RESI" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="ID_MN_RESI" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="CO_MUN_RES" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="CS_ZONA" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="SURTO_SG" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="NOSOCOMIAL" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="AVE_SUINO" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="FEBRE" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="TOSSE" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="GARGANTA" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="DISPNEIA" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="DESC_RESP" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="SATURACAO" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="DIARREIA" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="VOMITO" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="OUTRO_SIN" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="OUTRO_DES" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="PUERPERA" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="FATOR_RISC" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="CARDIOPATI" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="HEMATOLOGI" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="SIND_DOWN" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="HEPATICA" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="ASMA" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="DIABETES" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="NEUROLOGIC" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="PNEUMOPATI" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="IMUNODEPRE" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="RENAL" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="OBESIDADE" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="OBES_IMC" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="OUT_MORBI" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="MORB_DESC" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="VACINA" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="DT_UT_DOSE" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="MAE_VAC" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="DT_VAC_MAE" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="M_AMAMENTA" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="DT_DOSEUNI" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="DT_1_DOSE" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="DT_2_DOSE" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="ANTIVIRAL" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="TP_ANTIVIR" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="OUT_ANTIV" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="DT_ANTIVIR" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="HOSPITAL" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="DT_INTERNA" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="SG_UF_INTE" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="ID_RG_INTE" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="CO_RG_INTE" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="ID_MN_INTE" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="CO_MU_INTE" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="UTI" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="DT_ENTUTI" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="DT_SAIDUTI" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="SUPORT_VEN" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="RAIOX_RES" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="RAIOX_OUT" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="DT_RAIOX" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="AMOSTRA" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="DT_COLETA" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="TP_AMOSTRA" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="OUT_AMOST" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="PCR_RESUL" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="DT_PCR" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="POS_PCRFLU" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="TP_FLU_PCR" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="PCR_FLUASU" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="FLUASU_OUT" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="PCR_FLUBLI" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="FLUBLI_OUT" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="POS_PCROUT" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="PCR_VSR" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="PCR_PARA1" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="PCR_PARA2" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="PCR_PARA3" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="PCR_PARA4" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="PCR_ADENO" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="PCR_METAP" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="PCR_BOCA" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="PCR_RINO" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="PCR_OUTRO" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="DS_PCR_OUT" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="CLASSI_FIN" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="CLASSI_OUT" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="CRITERIO" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="EVOLUCAO" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="DT_EVOLUCA" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="DT_ENCERRA" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="DT_DIGITA" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="HISTO_VGM" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="PAIS_VGM" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="CO_PS_VGM" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="LO_PS_VGM" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="DT_VGM" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="DT_RT_VGM" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="PCR_SARS2" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="PAC_COCBO" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="PAC_DSCBO" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="OUT_ANIM" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="DOR_ABD" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="FADIGA" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="PERD_OLFT" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="PERD_PALA" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="TOMO_RES" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="TOMO_OUT" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="DT_TOMO" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="TP_TES_AN" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="DT_RES_AN" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="RES_AN" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="POS_AN_FLU" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="TP_FLU_AN" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="POS_AN_OUT" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="AN_SARS2" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="AN_VSR" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="AN_PARA1" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="AN_PARA2" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="AN_PARA3" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="AN_ADENO" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="AN_OUTRO" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="DS_AN_OUT" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="TP_AM_SOR" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="SOR_OUT" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="DT_CO_SOR" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="TP_SOR" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="OUT_SOR" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="DT_RES" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="RES_IGG" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="RES_IGM" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="RES_IGA" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="ESTRANG" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="VACINA_COV" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="DOSE_1_COV" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="DOSE_2_COV" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="DOSE_REF" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="FAB_COV_1" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="FAB_COV_2" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="FAB_COVREF" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="LAB_PR_COV" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="LOTE_1_COV" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="LOTE_2_COV" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="LOTE_REF" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="FNT_IN_COV" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="DOSE_2REF" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="FAB_COVRF2" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="LOTE_REF2" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="TRAT_COV" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="TIPO_TRAT" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="OUT_TRAT" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="DT_TRT_COV" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="CO_DETEC" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="VG_OMS" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="VG_OMSOUT" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="VG_LIN" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="VG_MET" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="VG_METOUT" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="VG_DTRES" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="VG_ENC" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="VG_REINF" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="REINF" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="FAB_ADIC" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="LOT_RE_BI" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="FAB_RE_BI" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="DOSE_ADIC" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="DOS_RE_BI" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="LOTE_ADIC" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="TABAG" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+            <Field name="CASO_SRAG" size="254" source="File: C:\Users\victo\Downloads\INFLUD24-19-05-2025.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="222" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression><![CDATA[Contains([ID_MN_RESI], "SANTOS") AND [SG_UF] = "SP" AND [ID_MUNICIP] = "SANTOS"
+]]></Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Contains([ID_MN_RESI], "SANTOS") AND [SG_UF] = "SP" AND [ID_MUNICIP] = "SANTOS"
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>;</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>INFLUD23-19-05-2025.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="DT_NOTIFIC" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="SEM_NOT" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="DT_SIN_PRI" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="SEM_PRI" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="SG_UF_NOT" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="ID_REGIONA" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="CO_REGIONA" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="ID_MUNICIP" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="CO_MUN_NOT" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="ID_UNIDADE" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="CO_UNI_NOT" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="CS_SEXO" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="DT_NASC" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="NU_IDADE_N" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="TP_IDADE" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="COD_IDADE" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="CS_GESTANT" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="CS_RACA" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="CS_ESCOL_N" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="ID_PAIS" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="CO_PAIS" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="SG_UF" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="ID_RG_RESI" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="CO_RG_RESI" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="ID_MN_RESI" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="CO_MUN_RES" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="CS_ZONA" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="SURTO_SG" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="NOSOCOMIAL" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="AVE_SUINO" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="FEBRE" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="TOSSE" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="GARGANTA" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="DISPNEIA" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="DESC_RESP" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="SATURACAO" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="DIARREIA" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="VOMITO" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="OUTRO_SIN" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="OUTRO_DES" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="PUERPERA" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="FATOR_RISC" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="CARDIOPATI" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="HEMATOLOGI" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="SIND_DOWN" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="HEPATICA" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="ASMA" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="DIABETES" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="NEUROLOGIC" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="PNEUMOPATI" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="IMUNODEPRE" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="RENAL" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="OBESIDADE" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="OBES_IMC" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="OUT_MORBI" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="MORB_DESC" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="VACINA" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="DT_UT_DOSE" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="MAE_VAC" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="DT_VAC_MAE" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="M_AMAMENTA" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="DT_DOSEUNI" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="DT_1_DOSE" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="DT_2_DOSE" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="ANTIVIRAL" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="TP_ANTIVIR" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="OUT_ANTIV" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="DT_ANTIVIR" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="HOSPITAL" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="DT_INTERNA" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="SG_UF_INTE" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="ID_RG_INTE" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="CO_RG_INTE" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="ID_MN_INTE" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="CO_MU_INTE" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="UTI" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="DT_ENTUTI" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="DT_SAIDUTI" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="SUPORT_VEN" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="RAIOX_RES" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="RAIOX_OUT" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="DT_RAIOX" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="AMOSTRA" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="DT_COLETA" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="TP_AMOSTRA" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="OUT_AMOST" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="PCR_RESUL" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="DT_PCR" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="POS_PCRFLU" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="TP_FLU_PCR" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="PCR_FLUASU" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="FLUASU_OUT" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="PCR_FLUBLI" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="FLUBLI_OUT" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="POS_PCROUT" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="PCR_VSR" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="PCR_PARA1" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="PCR_PARA2" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="PCR_PARA3" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="PCR_PARA4" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="PCR_ADENO" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="PCR_METAP" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="PCR_BOCA" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="PCR_RINO" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="PCR_OUTRO" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="DS_PCR_OUT" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="CLASSI_FIN" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="CLASSI_OUT" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="CRITERIO" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="EVOLUCAO" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="DT_EVOLUCA" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="DT_ENCERRA" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="DT_DIGITA" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="HISTO_VGM" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="PAIS_VGM" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="CO_PS_VGM" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="LO_PS_VGM" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="DT_VGM" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="DT_RT_VGM" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="PCR_SARS2" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="PAC_COCBO" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="PAC_DSCBO" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="OUT_ANIM" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="DOR_ABD" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="FADIGA" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="PERD_OLFT" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="PERD_PALA" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="TOMO_RES" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="TOMO_OUT" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="DT_TOMO" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="TP_TES_AN" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="DT_RES_AN" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="RES_AN" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="POS_AN_FLU" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="TP_FLU_AN" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="POS_AN_OUT" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="AN_SARS2" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="AN_VSR" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="AN_PARA1" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="AN_PARA2" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="AN_PARA3" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="AN_ADENO" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="AN_OUTRO" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="DS_AN_OUT" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="TP_AM_SOR" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="SOR_OUT" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="DT_CO_SOR" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="TP_SOR" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="OUT_SOR" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="DT_RES" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="RES_IGG" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="RES_IGM" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="RES_IGA" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="ESTRANG" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="VACINA_COV" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="DOSE_1_COV" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="DOSE_2_COV" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="DOSE_REF" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="FAB_COV_1" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="FAB_COV_2" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="FAB_COVREF" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="LAB_PR_COV" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="LOTE_1_COV" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="LOTE_2_COV" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="LOTE_REF" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="FNT_IN_COV" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="DOSE_2REF" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="FAB_COVRF2" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="LOTE_REF2" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="TRAT_COV" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="TIPO_TRAT" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="OUT_TRAT" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="DT_TRT_COV" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="CO_DETEC" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="VG_OMS" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="VG_OMSOUT" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="VG_LIN" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="VG_MET" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="VG_METOUT" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="VG_DTRES" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="VG_ENC" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="VG_REINF" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="REINF" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="FAB_ADIC" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="LOT_RE_BI" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="FAB_RE_BI" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="DOSE_ADIC" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="DOS_RE_BI" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="LOTE_ADIC" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+            <Field name="TABAG" size="254" source="File: C:\Users\victo\Downloads\INFLUD23-19-05-2025.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="222" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>Contains([ID_MN_RESI], "SANTOS") AND [SG_UF] = "SP" AND [ID_MUNICIP] = "SANTOS"</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Contains([ID_MN_RESI], "SANTOS") AND [SG_UF] = "SP" AND [ID_MUNICIP] = "SANTOS"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>;</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>INFLUD22-03-04-2023.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="DT_NOTIFIC" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="SEM_NOT" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="DT_SIN_PRI" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="SEM_PRI" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="SG_UF_NOT" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="ID_REGIONA" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="CO_REGIONA" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="ID_MUNICIP" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="CO_MUN_NOT" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="ID_UNIDADE" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="CO_UNI_NOT" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="CS_SEXO" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="DT_NASC" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="NU_IDADE_N" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="TP_IDADE" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="COD_IDADE" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="CS_GESTANT" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="CS_RACA" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="CS_ESCOL_N" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="ID_PAIS" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="CO_PAIS" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="SG_UF" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="ID_RG_RESI" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="CO_RG_RESI" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="ID_MN_RESI" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="CO_MUN_RES" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="CS_ZONA" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="SURTO_SG" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="NOSOCOMIAL" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="AVE_SUINO" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="FEBRE" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="TOSSE" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="GARGANTA" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="DISPNEIA" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="DESC_RESP" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="SATURACAO" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="DIARREIA" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="VOMITO" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="OUTRO_SIN" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="OUTRO_DES" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="PUERPERA" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="FATOR_RISC" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="CARDIOPATI" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="HEMATOLOGI" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="SIND_DOWN" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="HEPATICA" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="ASMA" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="DIABETES" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="NEUROLOGIC" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="PNEUMOPATI" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="IMUNODEPRE" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="RENAL" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="OBESIDADE" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="OBES_IMC" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="OUT_MORBI" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="MORB_DESC" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="VACINA" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="DT_UT_DOSE" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="MAE_VAC" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="DT_VAC_MAE" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="M_AMAMENTA" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="DT_DOSEUNI" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="DT_1_DOSE" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="DT_2_DOSE" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="ANTIVIRAL" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="TP_ANTIVIR" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="OUT_ANTIV" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="DT_ANTIVIR" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="HOSPITAL" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="DT_INTERNA" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="SG_UF_INTE" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="ID_RG_INTE" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="CO_RG_INTE" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="ID_MN_INTE" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="CO_MU_INTE" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="UTI" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="DT_ENTUTI" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="DT_SAIDUTI" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="SUPORT_VEN" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="RAIOX_RES" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="RAIOX_OUT" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="DT_RAIOX" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="AMOSTRA" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="DT_COLETA" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="TP_AMOSTRA" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="OUT_AMOST" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="PCR_RESUL" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="DT_PCR" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="POS_PCRFLU" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="TP_FLU_PCR" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="PCR_FLUASU" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="FLUASU_OUT" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="PCR_FLUBLI" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="FLUBLI_OUT" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="POS_PCROUT" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="PCR_VSR" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="PCR_PARA1" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="PCR_PARA2" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="PCR_PARA3" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="PCR_PARA4" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="PCR_ADENO" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="PCR_METAP" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="PCR_BOCA" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="PCR_RINO" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="PCR_OUTRO" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="DS_PCR_OUT" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="CLASSI_FIN" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="CLASSI_OUT" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="CRITERIO" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="EVOLUCAO" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="DT_EVOLUCA" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="DT_ENCERRA" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="DT_DIGITA" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="HISTO_VGM" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="PAIS_VGM" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="CO_PS_VGM" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="LO_PS_VGM" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="DT_VGM" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="DT_RT_VGM" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="PCR_SARS2" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="PAC_COCBO" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="PAC_DSCBO" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="OUT_ANIM" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="DOR_ABD" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="FADIGA" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="PERD_OLFT" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="PERD_PALA" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="TOMO_RES" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="TOMO_OUT" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="DT_TOMO" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="TP_TES_AN" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="DT_RES_AN" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="RES_AN" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="POS_AN_FLU" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="TP_FLU_AN" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="POS_AN_OUT" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="AN_SARS2" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="AN_VSR" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="AN_PARA1" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="AN_PARA2" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="AN_PARA3" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="AN_ADENO" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="AN_OUTRO" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="DS_AN_OUT" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="TP_AM_SOR" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="SOR_OUT" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="DT_CO_SOR" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="TP_SOR" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="OUT_SOR" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="DT_RES" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="RES_IGG" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="RES_IGM" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="RES_IGA" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="ESTRANG" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="VACINA_COV" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="DOSE_1_COV" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="DOSE_2_COV" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="DOSE_REF" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="FAB_COV_1" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="FAB_COV_2" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="FAB_COVREF" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="LAB_PR_COV" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="LOTE_1_COV" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="LOTE_2_COV" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="LOTE_REF" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="FNT_IN_COV" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="DOSE_2REF" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="FAB_COVRF2" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="LOTE_REF2" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="TRAT_COV" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="TIPO_TRAT" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="OUT_TRAT" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+            <Field name="DT_TRT_COV" size="254" source="File: C:\Users\victo\Downloads\INFLUD22-03-04-2023.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>;</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>INFLUD21-01-05-2023.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="DT_NOTIFIC" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="SEM_NOT" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="DT_SIN_PRI" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="SEM_PRI" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="SG_UF_NOT" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="ID_REGIONA" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="CO_REGIONA" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="ID_MUNICIP" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="CO_MUN_NOT" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="ID_UNIDADE" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="CO_UNI_NOT" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="CS_SEXO" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="DT_NASC" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="NU_IDADE_N" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="TP_IDADE" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="COD_IDADE" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="CS_GESTANT" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="CS_RACA" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="CS_ESCOL_N" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="ID_PAIS" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="CO_PAIS" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="SG_UF" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="ID_RG_RESI" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="CO_RG_RESI" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="ID_MN_RESI" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="CO_MUN_RES" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="CS_ZONA" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="SURTO_SG" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="NOSOCOMIAL" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="AVE_SUINO" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="FEBRE" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="TOSSE" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="GARGANTA" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="DISPNEIA" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="DESC_RESP" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="SATURACAO" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="DIARREIA" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="VOMITO" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="OUTRO_SIN" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="OUTRO_DES" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="PUERPERA" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="FATOR_RISC" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="CARDIOPATI" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="HEMATOLOGI" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="SIND_DOWN" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="HEPATICA" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="ASMA" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="DIABETES" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="NEUROLOGIC" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="PNEUMOPATI" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="IMUNODEPRE" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="RENAL" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="OBESIDADE" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="OBES_IMC" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="OUT_MORBI" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="MORB_DESC" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="VACINA" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="DT_UT_DOSE" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="MAE_VAC" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="DT_VAC_MAE" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="M_AMAMENTA" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="DT_DOSEUNI" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="DT_1_DOSE" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="DT_2_DOSE" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="ANTIVIRAL" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="TP_ANTIVIR" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="OUT_ANTIV" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="DT_ANTIVIR" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="HOSPITAL" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="DT_INTERNA" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="SG_UF_INTE" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="ID_RG_INTE" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="CO_RG_INTE" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="ID_MN_INTE" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="CO_MU_INTE" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="UTI" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="DT_ENTUTI" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="DT_SAIDUTI" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="SUPORT_VEN" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="RAIOX_RES" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="RAIOX_OUT" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="DT_RAIOX" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="AMOSTRA" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="DT_COLETA" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="TP_AMOSTRA" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="OUT_AMOST" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="PCR_RESUL" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="DT_PCR" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="POS_PCRFLU" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="TP_FLU_PCR" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="PCR_FLUASU" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="FLUASU_OUT" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="PCR_FLUBLI" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="FLUBLI_OUT" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="POS_PCROUT" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="PCR_VSR" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="PCR_PARA1" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="PCR_PARA2" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="PCR_PARA3" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="PCR_PARA4" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="PCR_ADENO" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="PCR_METAP" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="PCR_BOCA" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="PCR_RINO" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="PCR_OUTRO" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="DS_PCR_OUT" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="CLASSI_FIN" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="CLASSI_OUT" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="CRITERIO" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="EVOLUCAO" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="DT_EVOLUCA" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="DT_ENCERRA" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="DT_DIGITA" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="HISTO_VGM" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="PAIS_VGM" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="CO_PS_VGM" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="LO_PS_VGM" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="DT_VGM" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="DT_RT_VGM" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="PCR_SARS2" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="PAC_COCBO" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="PAC_DSCBO" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="OUT_ANIM" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="DOR_ABD" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="FADIGA" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="PERD_OLFT" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="PERD_PALA" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="TOMO_RES" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="TOMO_OUT" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="DT_TOMO" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="TP_TES_AN" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="DT_RES_AN" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="RES_AN" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="POS_AN_FLU" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="TP_FLU_AN" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="POS_AN_OUT" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="AN_SARS2" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="AN_VSR" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="AN_PARA1" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="AN_PARA2" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="AN_PARA3" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="AN_ADENO" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="AN_OUTRO" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="DS_AN_OUT" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="TP_AM_SOR" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="SOR_OUT" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="DT_CO_SOR" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="TP_SOR" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="OUT_SOR" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="DT_RES" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="RES_IGG" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="RES_IGM" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="RES_IGA" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="ESTRANG" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="VACINA_COV" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="DOSE_1_COV" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="DOSE_2_COV" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="DOSE_REF" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="FAB_COV_1" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="FAB_COV_2" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="FAB_COVREF" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="LOTE_REF" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="LAB_PR_COV" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="LOTE_1_COV" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="LOTE_2_COV" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+            <Field name="FNT_IN_COV" size="254" source="File: C:\Users\victo\Downloads\INFLUD21-01-05-2023.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="222" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>Contains([ID_MN_RESI], "SANTOS") AND [SG_UF] = "SP" AND [ID_MUNICIP] = "SANTOS"</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Contains([ID_MN_RESI], "SANTOS") AND [SG_UF] = "SP" AND [ID_MUNICIP] = "SANTOS"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="210" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>Contains([ID_MN_RESI], "SANTOS") AND [SG_UF] = "SP" AND [ID_MUNICIP] = "SANTOS"</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Contains([ID_MN_RESI], "SANTOS") AND [SG_UF] = "SP" AND [ID_MUNICIP] = "SANTOS"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="678" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File />
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions UseDcm="true" Format="19" MaxRecords="">
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+            <WriteCompatibleVersion>False</WriteCompatibleVersion>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="True" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Feito sera</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="981504a9-b71f-4bb4-b81a-714d663a28a2" />
+      <Telemetry>
+        <PreviousWorkflowId value="6cc6a856-14af-4833-9446-43bd5475b78a" />
+        <OriginWorkflowId value="6cc6a856-14af-4833-9446-43bd5475b78a" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
